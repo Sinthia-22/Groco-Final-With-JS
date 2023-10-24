@@ -28,7 +28,7 @@
     scroll-padding-top: 7rem;
  }
 
- body{
+ .body{
     background-color: #eee;
  }
 
@@ -371,7 +371,7 @@
 .home .content  p
 {
     color: var(--light-color);
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     padding: .8rem 0;
     line-height: 2rem;
 }
@@ -483,7 +483,7 @@
 .products .product-slider .box .stars i
 {
      font-size: 1.6rem;
-     color: rgb(118, 197, 15);
+     color: rgb(228, 231, 30);
      padding: .5rem 0;
 }
 /* code for products */
@@ -727,16 +727,19 @@
     height: 4rem;
     width: 4rem;
     line-height: 4rem;
-    border-radius: .5rem;
+    border-radius: 50%;
     font-size: 2rem;
     color: var(--black);
     margin-left: .2rem;
     background: #eee;
     text-align: center;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
 }
 
 .footer .box-container .box .share a:hover
 {
+    transform: translateY(-3px) ;
     background: var(--green);
     color: #fff;
 }
