@@ -98,3 +98,12 @@ var swiper = new Swiper(".product-slider", {
       },
     },
   });
+
+
+
+  var cuesor= document.querySelector(".cuesor");
+  var cuesor2= document.querySelector(".cuesor2");
+  document.addEventListener("mousemove",function(e){
+       cuesor.style.cssText = cuesor2.style.cssText="left: " +e.clientX
+       +"px; top: " +e.clientY +"px;";
+  });

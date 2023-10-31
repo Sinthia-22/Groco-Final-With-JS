@@ -794,14 +794,14 @@
     position: fixed;
     width: 50px;
     height: 50px;
-    background-color:;
+    /* background-color:; */
     border: 1px solid green;
     border-radius: 50%;
     left: 0;
     top: 0;
     pointer-events: none;
     transform: translate(-50%,-50%);
-    transition: .1s;
+    transition: .05s;
 }
 .cuesor2
 {
@@ -814,7 +814,7 @@
     top: 0;
     pointer-events: none;
     transform: translate(-50%,-50%);
-    transition: .25s;
+    transition: .05s;
 }
 
 
